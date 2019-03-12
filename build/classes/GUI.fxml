@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIController">
+   <items>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="617.0">
+         <children>
+            <Button fx:id="addNew" layoutX="136.0" layoutY="282.0" mnemonicParsing="false" onAction="#addButtonAction" text="Add new" />
+            <Label layoutX="136.0" prefHeight="53.0" prefWidth="452.0" text="Tasks">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <ListView fx:id="taskList" layoutX="136.0" layoutY="53.0" prefHeight="224.0" prefWidth="480.0" />
+            <Separator layoutX="112.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="344.0" prefWidth="4.0" />
+            <Button layoutX="7.0" layoutY="41.0" mnemonicParsing="false" text="Todo list" />
+            <Button layoutX="4.0" layoutY="95.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="93.0" text="Archive" />
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>
